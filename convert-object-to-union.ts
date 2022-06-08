@@ -1,7 +1,7 @@
 const fruitCounts = {
   apple: 1,
   pear: 2,
-  banana:"",
+  banana: "",
 };
 
 type ObjectToObjectUnion<T extends Record<string, any>> = {
